@@ -16,7 +16,10 @@ const server = http.createServer((req, res) => {
       res.writeHead(404).end('Not found');
       return;
     }
-    const type = file.endsWith('.html') ? 'text/html; charset=utf-8' : 'application/octet-stream';
+    const type = file.endsWith('.html') ? 'text/html; charset=utf-8'
+      : file.endsWith('.js') ? 'text/javascript; charset=utf-8'
+      : file.endsWith('.css') ? 'text/css; charset=utf-8'
+      : 'application/octet-stream';
     res.writeHead(200, { 'Content-Type': type });
     res.end(data);
   });

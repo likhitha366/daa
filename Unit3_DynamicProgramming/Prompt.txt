@@ -1,0 +1,1 @@
+Visualize Held–Karp dynamic programming for a traveling salesperson problem. Show subset/end-city states, reconstruct the minimum tour, and display its total cost for a small distance matrix.

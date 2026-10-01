@@ -4,7 +4,21 @@ An interactive, browser based application built around one application topic fro
 
 ## Run
 
-Open `index.html` in a modern browser. No server, install, or build step is required. The app runs locally in the browser and uses no backend.
+Run `node serve.js` from the repository folder, then open `http://127.0.0.1:8765/` in a modern browser. No install or build step is required. The app runs locally and uses no backend.
+
+## Unit-wise activities
+
+Each unit has an independent activity folder with a runnable page, algorithm source, prompt, and README. Run `node serve.js` at the repository root and visit the unit page, such as `http://127.0.0.1:8765/Unit1_AlgorithmAnalysis/`.
+
+| Folder | Activity |
+|---|---|
+| `Unit1_AlgorithmAnalysis` | Sorting Complexity Visualizer |
+| `Unit2_GreedyAlgorithms` | Greedy Job Sequencing |
+| `Unit3_DynamicProgramming` | Traveling Salesperson DP |
+| `Unit4_Backtracking` | N-Queens Backtracking |
+| `Unit5_BranchAndBound` | Knapsack Branch and Bound |
+
+The top-level `index.html` remains the combined lab for presenting all five activities together.
 
 ## Projects included
 

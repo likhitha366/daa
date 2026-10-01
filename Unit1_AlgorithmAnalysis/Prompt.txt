@@ -1,0 +1,1 @@
+Create a visualization comparing Merge Sort, Quick Sort, and Insertion Sort for a selected input size. Show measured comparison counts and explain how observed growth relates to O(n log n) and O(n^2).

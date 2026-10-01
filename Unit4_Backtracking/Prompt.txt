@@ -1,0 +1,1 @@
+Draw the N=4 queens state-space search, marking unsafe placements and backtracking steps. Show a valid board and explain how conflicts prune partial states.

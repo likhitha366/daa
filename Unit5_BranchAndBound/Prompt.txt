@@ -1,0 +1,1 @@
+Illustrate a 0/1 knapsack branch-and-bound search tree. Label nodes with current weight, value, and fractional upper bound; mark branches pruned when their bound cannot beat the best feasible solution.

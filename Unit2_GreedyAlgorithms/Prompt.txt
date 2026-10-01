@@ -1,0 +1,1 @@
+Create a job sequencing demonstration that sorts jobs by profit, places each job in the latest available time slot before its deadline, and reports rejected jobs and total profit.
